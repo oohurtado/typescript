@@ -1,8 +1,8 @@
-let arr = ["x"];
-arr.push("a");
-arr.push("b");
-arr.push("c");
-arr.push("x");
+let arr = ["Oscar"];
+arr.push("Nahara");
+arr.push("Oliver");
+arr.push("Ana Maria");
+arr.push("Franco");
 for (let i = 0; i < arr.length; i++)
     console.log(arr[i]);
 export {};
