@@ -22,3 +22,5 @@ class Cuenta {
         this.saldo = saldo        
     }
 }
+
+export {};

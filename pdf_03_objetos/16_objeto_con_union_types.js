@@ -23,3 +23,5 @@ let o1 = new Orden(1, 500, 'pending');
 let o2 = new Orden(1, 500, 'cancelled');
 console.log(o1);
 console.log(o2);
+
+export {};

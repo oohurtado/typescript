@@ -26,3 +26,5 @@ const producto2 = {
 
 console.log(producto1)
 console.log(producto2)
+
+export {};
