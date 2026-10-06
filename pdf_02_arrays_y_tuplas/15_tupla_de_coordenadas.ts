@@ -9,7 +9,7 @@ export{};
 // Pista
 // Una tupla fija el tipo esperado en cada posicion.
 
-let coordenada: [x:number, y:number] =[1.1,2.2];
+let coordenada: [x:number, y:number] = [1.1,2.2];
 console.log(coordenada)
 console.log(coordenada.at(0))
 console.log(coordenada.at(1))
