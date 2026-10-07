@@ -11,6 +11,7 @@
 // Practicar parametros opcionales.
 // Pista
 // Un parametro opcional se marca con ?
+export{};
 function hi(firstname, lastname) {
     if (lastname === undefined) {
         return `Hola, ${firstname}`;
