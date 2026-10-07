@@ -8,17 +8,11 @@
 // Practicar callbacks tipados.
 // Pista
 // Define claramente la firma esperada del callback
-
-export{};
-
-type Callback = (mensaje: string) => void;
-
-function completarTarea(callback: Callback): void {
+function completarTarea(callback) {
     console.log("Completando tarea...");
-
     callback("Tarea completada correctamente.");
 }
-
 completarTarea((mensaje) => {
     console.log(mensaje);
 });
+export {};
