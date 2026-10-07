@@ -1,0 +1,6 @@
+Si hablamos de clase ↔ interface:
+- Clase implements Interface → ✅ Sí
+- Clase extends Interface → ❌ No
+- Interface extends Clase → ❌ No
+- Interface extends Interface → ✅ Sí
+- Clase extends Clase → ✅ Sí
