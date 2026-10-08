@@ -17,8 +17,8 @@ interface Product {
 }
 
 interface Repository {
-    getAll: () => Product[]
-    getById: (id:number) => Product | undefined
+    getAll(): Product[]
+    getById(id:number): Product | undefined
 }
 
 class ProductRepository implements Repository {
