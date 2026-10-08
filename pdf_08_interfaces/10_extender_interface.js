@@ -12,10 +12,14 @@ let e1 = {
     id: 1,
     age: 43,
     department: 'programacion',
-    name: 'oscar'
+    name: 'oscar',
+    str: function () {
+        return `${this.id} ${this.name}`;
+    }
 };
 function foo(p) {
     console.log(`${p.name} ${p.age}`);
 }
+console.log(e1.str());
 foo(e1);
 export {};

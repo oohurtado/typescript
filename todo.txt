@@ -7,3 +7,5 @@ lu:15,16
 ma:17
 mi:18
 ju:19,20
+
+practicar dicconarios

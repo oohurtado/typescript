@@ -14,6 +14,7 @@ export {};
 interface Person {
     name: string
     age: number
+    str(): string
 }
 
 interface Employee extends Person {
@@ -22,14 +23,18 @@ interface Employee extends Person {
 }
 
 let e1:Employee = {
-    id:1,
-    age:43,
-    department:'programacion',
-    name:'oscar'
+    id: 1,
+    age: 43,
+    department: 'programacion',
+    name: 'oscar',
+    str: function (): string {
+        return `${this.id} ${this.name}`
+    }
 }
 
 function foo(p:Person) {
     console.log(`${p.name} ${p.age}`)
 }
 
+console.log(e1.str())
 foo(e1)

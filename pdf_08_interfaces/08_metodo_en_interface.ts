@@ -14,10 +14,15 @@ export{};
 
 interface Calculator {
     add: (a:number, b:number) => number
+    del(x:number) : void
 }
 
-let c: Calculator = {
-    add: (a,b) => a + b
+let ccc: Calculator = {
+    add: (a, b) => a + b,
+    
+    del: function (x: number): void {
+        throw new Error("Function not implemented.");
+    }
 }
 
-console.log(c.add(3,4));
+console.log(ccc.add(3,4));

@@ -20,7 +20,10 @@ type Result = {
     long: number
 }
 
-let tmp: User[] = [{firsName:'oscar',lastName:'hurtado'},{firsName:'naharta', lastName:'brizuela'}]
+let tmp: User[] = [
+    {firsName:'oscar',lastName:'hurtado'},
+    {firsName:'naharta', lastName:'brizuela'}
+]
 
 function transform1(users: User[]) : string[] {
     let result = users.map(p => `${p.firsName} ${p.lastName}`)
