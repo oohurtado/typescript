@@ -15,3 +15,4 @@ function pair(x, y) {
 }
 console.log(pair(2, 3));
 console.log(pair('2', '3'));
+export {};

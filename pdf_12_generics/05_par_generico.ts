@@ -10,6 +10,7 @@
 // Pista
 // El parametro de tipo puede utilizarse varias veces
 
+export {};
 function pair<T>(x:T, y:T) : [x:T, y:T] {
     return [x,y]
 }
