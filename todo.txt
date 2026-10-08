@@ -1,5 +1,5 @@
 mi:6,7,8 	- 6,7,8,9
-ju:9,10		- 10?,11?
+ju:9,10		- 10?,11,12?
 vi:11,12	
 sa:13		
 do:14
@@ -8,4 +8,7 @@ ma:17
 mi:18
 ju:19,20
 
-practicar dicconarios
+array
+set
+map
+record(diccionario)
