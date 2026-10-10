@@ -1,4 +1,8 @@
 npm install -g typescript
 
+- correr archivo ts
 tsc main.ts
 node main.js
+
+usar promesa en archivo ts
+/// <reference lib="es2015.promise" />
