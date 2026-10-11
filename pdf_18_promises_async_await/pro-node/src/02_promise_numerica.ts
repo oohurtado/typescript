@@ -7,13 +7,8 @@
 // Objetivo
 // Practicar Promises tipadas.
 // Pista
-// El valor recibido en then conserva el tipo de la Promise.
+// El valor recibido en then conserva el tipo de la Promise
 
-/// <reference lib="es2015.promise" />
-export{}
-
-let promise = new Promise<number>((resolve, reject) => {
+export const promise02 = new Promise<number>((resolve,reject) => {
     resolve(20)
 });
-
-promise.then(p => console.log(p))
